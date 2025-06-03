@@ -59,7 +59,8 @@
         <label class="logo">A&J</label>
         <ul class="text">
             <li><a href="#story" onclick="myFunction()">NOSSA HISTORIA</a></li>
-            <li><a href="#stay" onclick="myFunction()">COMO CHEGAR</a></li>
+            <li><a href="#local" onclick="myFunction()">LOCAL</a></li>
+            <li><a href="#support" onclick="myFunction()">APOIO INSTITUCIONAL</a></li>
             <li><a href="#registry" onclick="myFunction()">PROMESSAS</a></li>
         </ul>
     </nav>
@@ -76,7 +77,12 @@
 
                 
             </div>
-            <div class="home-img" id="home-img-lg"></div>
+            <div class="home-video-container" id="home-video-lg">
+    <video autoplay muted loop playsinline class="home-video">
+        <source src="assets/video-casamento.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos HTML5.
+    </video>
+</div>
         </div>
     </div>
 
@@ -103,9 +109,9 @@
                             <i class="fas fa-clock"></i> 22:00 Horas
                         </p>
                         <p class="event-location">
-                            <i class="fas fa-map-marker-alt"></i> Mansão Cantarelli
+                            <i class="fas fa-map-marker-alt"></i> Mansão Cantarelli - Russel - Falconi
                         </p>
-                        <p class="event-address">Russia e Falconi</p>
+                        
                     </div>
                 </div>
         
@@ -113,7 +119,7 @@
                 <div class="event">
                     <div class="event-header">
                         <span class="event-number">02</span>
-                        <h3 class="event-title">Recepção</h3>
+                        <h3 class="event-title">Festa</h3>
                     </div>
                     <div class="event-details">
                         <p class="event-date">
@@ -163,33 +169,80 @@
 
             <div class="hands" id="parallax1"></div>
 
-
-            <div id="stay">
-                <h2 class="reveal">Como Chegar</h2>
-                <div class="stay-container reveal">
-                    <div class="stay-item">
-                        <h3>01. <br>Acesso Principal</h3>
-                        <div class="text">
-                            Entrada pela Alameda dos Nobres<br>
-                            Portão principal com segurança 24h<br>
-                            Estacionamento para convidados disponível
-                        </div>
-                        <!-- Imagem da entrada principal -->
-                        <div class="location-image" style="background-image: url('sua-imagem-entrada.jpg'); margin-top: 20px;"></div>
-                    </div>
-                    
-                    <div class="stay-item">
-                        <h3>02. <br>Acesso por Helicóptero</h3>
-                        <div class="text">
-                            Heliponto privativo disponível<br>
-                            Coordenadas: 40.7128° N, 74.0060° W<br>
-                            Autorização prévia necessária
-                        </div>
-                        <!-- Imagem do heliponto -->
-                        <div class="location-image" style="background-image: url('sua-imagem-heliponto.jpg'); margin-top: 20px;"></div>
-                    </div>
-                </div>
+    <div class="venue-section hz-margin reveal" id="local">
+    <h2 class="section-title">NOSSO LOCAL DE CELEBRAÇÃO</h2>
+    <h3 class="venue-subtitle">Mansão Cantarelli - Russel - Falconi</h3>
+    
+    <div class="venue-gallery">
+        <!-- Vídeo do estacionamento -->
+        <div class="venue-item">
+            <video controls class="venue-media">
+                <source src="assets/estacionamento.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos HTML5.
+            </video>
+            <p class="venue-caption">Estacionamento Privativo</p>
+        </div>
+        
+        <!-- Fotos da mansão -->
+        <div class="venue-item">
+            <img src="assets/fachada.png" alt="Fachada da Mansão" class="venue-media">
+            <p class="venue-caption">Fachada Principal</p>
+        </div>
+        
+        <div class="venue-item">
+            <img src="assets/entrada.png" alt="Entrada da Mansão" class="venue-media">
+            <p class="venue-caption">Entrada Principal</p>
+        </div>
+        
+        <div class="venue-item">
+            <img src="assets/area-festa.png" alt="Área de Festa" class="venue-media">
+            <p class="venue-caption">Área de Recepção</p>
+        </div>
+        
+        <div class="venue-item">
+            <img src="assets/altar.png" alt="Local da Cerimônia" class="venue-media">
+            <p class="venue-caption">Local da Cerimônia</p>
+        </div>
+        
+        <div class="venue-item">
+            <img src="assets/cinema.png" alt="Área de Cinema" class="venue-media">
+            <p class="venue-caption">Sala de Cinema</p>
+        </div>
+    </div>
+    
+    <div class="venue-address">
+        <i class="fas fa-map-marker-alt"></i> M. Cantarelli - Russel - Falconi, São Paulo - SP
+    </div>
+    </div>
+            
+            <div id="support">
+    <h2 class="section-title reveal">APOIO INSTITUCIONAL</h2>
+    <div class="support-grid reveal">
+        <!-- Corpo de Bombeiros -->
+        <div class="institution-card">
+            <div class="logo-container">
+                <img src="assets/CBM_SP.png" alt="CBM_SP" class="institution-logo">
             </div>
+            <div class="institution-info">
+                <h3>CORPO DE BOMBEIROS MILITAR</h3>
+                <div class="divider"></div>
+                <p class="institution-text">Orgulhosamente apoiando<br>este momento especial</p>
+            </div>
+        </div>
+
+        <!-- Exército Brasileiro -->
+        <div class="institution-card">
+            <div class="logo-container">
+                <img src="assets/exercito.png" alt="Logo do Exército Brasileiro" class="institution-logo">
+            </div>
+            <div class="institution-info">
+                <h3>EXÉRCITO BRASILEIRO</h3>
+                <div class="divider"></div>
+                <p class="institution-text">Honrando esta união<br>e garantindo a segurança deste momento especial</p>
+            </div>
+        </div>
+    </div>
+    </div>
 
 
             <div id="registry">
@@ -198,7 +251,7 @@
                     <div class="text">
                         Prometo cuidar do seu bem-estar e da felicidade de nossa família, de você e dos filhos que tivermos. Em troca, desejo seu apoio, seu cuidado e sua presença sempre que eu precisar. Juntos, protegeremos nosso lar e nossos filhos, sendo um para o outro força e coragem.
 
-Colocarei você acima de qualquer outra pessoa neste mundo. Você completa a minha vida, e eu prometo te respeitar, hoje e sempre.
+    Colocarei você acima de qualquer outra pessoa neste mundo. Você completa a minha vida, e eu prometo te respeitar, hoje e sempre.
 
                     </div>
                     
@@ -209,16 +262,13 @@ Colocarei você acima de qualquer outra pessoa neste mundo. Você completa a min
 
 
             <div class="parting-message reveal">
-                <h1>
-                    Espero ver você!</h1>
-                <button class="huge-btn">Convite</button>
+             <h1>Espero ver você!</h1>
+            <a href="assets/convite.pdf" download="Convite_Casamento_A&J.pdf" target="_blank" rel="noopener noreferrer" class="huge-btn">Convite</a>
             </div>
 
 
             <footer>
-                <h2>Ligue para nós</h2>
-                <h2>Almeida Jackson: 123-456-7890</h2>
-                <h2>Jade Falconi: 123-456-7890</h2>
+            
                 <div class="text">© 2025 criado por Almeida Jackson. Made by <a  class="text">@Almeida_Jackson</a></div>
             </footer>
         </div>
